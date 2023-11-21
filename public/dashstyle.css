@@ -1,0 +1,12 @@
+.card-header{
+    background-color:#DEB887;
+    color: black;
+}
+#dashbody{
+    background-image: url(tab.jpg);
+    text-align: center;
+}
+#dash{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,16 @@
+<html>
+    <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    </head>
+    <body>
+        <h1>THIS IS THE MEDICINE EDIT PAGE</h1>
+
+        <form action="/meds/edit/{{med.mid}}" method="post">
+            <input type="text" name="name" value="{{med.name}}" placeholder""/>
+            <input type="text" name="count" value="{{med.count}}" placeholder""/>
+            <input type="text" name="brand" value="{{med.brand}}" placeholder""/>
+
+            <button type="submit">Save</button>
+        </form>
+    </body>
+</html>

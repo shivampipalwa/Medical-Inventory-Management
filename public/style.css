@@ -1,0 +1,51 @@
+
+#body1{
+    background-image:url(n8sky.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    text-align: center;
+}
+#body2{
+    background-image:url(w.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    text-align: center;
+}
+#addbody{
+    background-image: url(mt.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    text-align: center;
+}
+#medi{
+    margin-top: 50px;
+}
+#headingADD{
+    margin-top: 70px;
+}
+#formADD{
+    margin-top: 45px;
+}
+.centered-heading{
+    position: absolute;
+    weight: bold;
+    top: 300px;
+    left: 38%;
+    color: white;
+    font-size: 4em;
+}
+.centered{
+    position: absolute;
+    top: 420px;
+    left: 31%;
+    color: white;
+    font-size: 1.5em;
+}
+#continue{
+    position:absolute;
+    top:500px;
+    left: 43%;
+}
